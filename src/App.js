@@ -13,8 +13,8 @@ function App() {
           </div>
         </nav>
       </header>
-      <main className="my-5">
-        <div className="container">
+      <main>
+        <div className="container my-5">
           <Game />
         </div>
       </main>
