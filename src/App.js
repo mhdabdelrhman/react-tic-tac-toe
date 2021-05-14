@@ -18,7 +18,19 @@ function App() {
           <Game />
         </div>
       </main>
-      <footer>Footer</footer>
+      <footer>
+        <div className="w-100 bg-dark text-white">
+          <div className="container py-3">
+            <span>
+              Coded by 
+              <a className="mx-1" target="_blank" href="https://github.com/mhdabdelrhman">
+                mhdabdelrhman
+              </a>
+            </span>
+            <span>, @Year {new Date().getFullYear()}</span>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }

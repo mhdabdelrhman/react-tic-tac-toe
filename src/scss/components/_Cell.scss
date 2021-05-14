@@ -1,23 +1,21 @@
 .cell {
-  width: 100%;  
+  width: 100%;
   height: 100%;
   cursor: pointer;
   background-color: $gray-700;
   color: $white;
-  border-radius: 10px;  
+  border-radius: 10px;
   padding: 0.8rem;
   margin: 0.3rem;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  span{
+  box-shadow: 0 0 1px 0 $dark;
+  transition: box-shadow 500ms;
+  &:hover {
+    box-shadow: 0 0 30px 0 $dark;
+  }
+  span {
     flex-basis: 100%;
     text-align: center;
     font-size: 500%;
-  }
-
-  &:hover {
-    box-shadow: 3px 3px 10px $dark;
   }
 }
