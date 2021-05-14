@@ -22,8 +22,13 @@ function App() {
         <div className="w-100 bg-dark text-white">
           <div className="container py-3">
             <span>
-              Coded by 
-              <a className="mx-1" target="_blank" href="https://github.com/mhdabdelrhman">
+              Coded by
+              <a
+                className="mx-1"
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/mhdabdelrhman"
+              >
                 mhdabdelrhman
               </a>
             </span>

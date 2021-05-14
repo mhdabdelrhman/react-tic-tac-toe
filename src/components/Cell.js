@@ -4,7 +4,7 @@ const Cell = ({ value, row, column, onClick }) => {
   return (
     <div className="cell" onClick={() => onClick({ row, column })}>
       <span>
-        {value && value > 0 ? (
+        {value && value !== 0 ? (
           value === 1 ? (
             "X"
           ) : (
